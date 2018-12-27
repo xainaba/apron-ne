@@ -1,0 +1,309 @@
+header,nav,article,section,aside,footer{display:block;}
+
+
+*{margin:0;}
+*{padding:0;}
+img{vertical-align:bottom;}
+
+a:hover img{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-ms-filter: "alpha( opacity=80 )";
+	}
+
+#bg{
+	background-image: url(img_ap/nevi_ap.jpg);
+	background-repeat: no-repeat;
+	background-position: 423px 0px;
+}
+
+header{
+	background-color: #fff;
+	width: 1400px;
+}
+
+
+#line{
+	float: left;
+	width: 400px;
+}
+
+#hd_right{
+	float: left;
+	width: 960px;
+}
+
+#line a:link{
+	background-image: url(img_ap/line_at02.gif);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: 0 -65px;
+	width: 400px;
+	height: 280px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#line a:hover{
+background-image:url(img_ap/line_at02_h.gif);
+background-position:0 0;
+}
+
+.contact_text{
+	float: left;
+	width: 400px;
+	padding: 20px 0 0 100px;
+}
+.contact_icon{
+	float: left;
+	width: 400px;
+}
+.contact_icon p{
+	display:inline;
+}
+
+#contact{
+	float: left;
+	width: 960px;
+}
+
+
+#wrap_01{
+width:960px;
+}
+ /*
+.sns_1 a:link{
+display:block;
+background-image:url(img/sns_2.jpg);
+background-repeat:no-repeat;
+background-position:-60px -10px;
+width:40px;
+height:40px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+.sns_2 a:link{
+display:block;
+background-image:url(img/sns_2.jpg);
+background-repeat:no-repeat;
+background-position:-120px -10px;
+width:40px;
+height:40px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+.sns_3 a:link{
+display:block;
+background-image:url(img/sns_2.jpg);
+background-repeat:no-repeat;
+background-position:0 -10px;
+width:40px;
+height:40px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+.sns_4 a:link{
+display:block;
+background-image:url(img/sns_2.jpg);
+background-repeat:no-repeat;
+background-position:-250px -10px;
+width:40px;
+height:40px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+*/
+
+nav{
+background-color:#3c5200;
+}
+
+ul{
+width:960px;
+margin:auto;
+}
+
+#nav_01 a:link{
+display:block;
+background-image:url(img_ap/navi001.gif);
+background-repeat:no-repeat;
+width:160px;
+height:50px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+#nav_01 a:hover{
+background-position:0 -50px;
+}
+
+#nav_02 a:link{
+display:block;
+background-image:url(img_ap/navi002.gif);
+background-repeat:no-repeat;
+width:160px;
+height:50px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+#nav_02 a:hover{
+background-position:0 -50px;
+}
+
+#nav_03 a:link{
+display:block;
+background-image:url(img_ap/navi003.gif);
+background-repeat:no-repeat;
+width:160px;
+height:50px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+#nav_03 a:hover{
+background-position:0 -50px;
+}
+
+#nav_04 a:link{
+display:block;
+background-image:url(img_ap/navi004.gif);
+background-repeat:no-repeat;
+width:160px;
+height:50px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+#nav_04 a:hover{
+background-position:0 -50px;
+}
+
+#nav_05 a:link{
+display:block;
+background-image:url(img_ap/navi005.gif);
+background-repeat:no-repeat;
+width:160px;
+height:50px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+#nav_05 a:hover{
+background-position:0 -50px;
+}
+
+#nav_06 a:link{
+display:block;
+background-image:url(img_ap/navi006.gif);
+background-repeat:no-repeat;
+width:160px;
+height:50px;
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+}
+#nav_06 a:hover{
+background-position:0 -50px;
+}
+
+
+li{float:left;
+list-style-type:none;
+}
+
+.clearfix:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+.left_bnr{border:dotted 1px #ccc;
+padding:10px 0;
+text-align:center;}
+
+#left{
+width:280px;
+float:left;
+position:relative;
+top:50px;
+}
+
+#right{
+float:left;
+}
+
+h2{
+background-image:url(img_ap/mokume.jpg);
+padding:20px;
+text-align:center;
+}
+
+#item_ap p{
+border:dotted 1px #ccc;
+float:left;
+padding:20px;
+}
+
+#wrap_02{
+text-align:center;
+background-color:#fff;
+}
+
+#cp_item p{
+text-align:center;
+}
+
+footer{
+padding:20px;
+text-align:center;
+background-color:#fff;
+color:#3c5200;
+}
+
+
+/*問い合わせメールフォーム*/
+
+#test{
+background-color:#fff;
+width:960px;
+margin:auto;
+}
+
+table{
+width:650px;
+margin:auto;
+	border: 1px solid #333;
+	border-collapse:collapse;
+}
+
+th {
+	background-color: #9F9;
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+td {
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+.send{
+width:650px;
+margin:auto;
+padding:20px;
+}
+
+#sousin,#reset{
+width:250px;
+padding:10px;
+font-size:20px;
+}
+/*------------------------*/

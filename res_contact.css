@@ -1,0 +1,39 @@
+/*問い合わせメールフォーム*/
+
+#wrap{
+background-color:#fff;
+width:960px;
+margin:auto;
+}
+
+table{
+width:650px;
+margin:auto;
+	border: 1px solid #333;
+	border-collapse:collapse;
+}
+
+th {
+	background-color: #CFC;
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+td {
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+.send{
+	background-color:#fff;
+width:650px;
+margin:auto;
+padding:20px;
+}
+
+#sousin,#reset{
+width:250px;
+padding:10px;
+font-size:20px;
+}
+/*------------------------*/
